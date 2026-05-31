@@ -1,0 +1,13 @@
+[package]
+name = "lau-database-theory"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Database theory implementations — relational algebra, B-trees, hash indexes, query optimization, ACID transactions, concurrency control, recovery, and normal forms"
+repository = "https://github.com/SuperInstance/lau-database-theory"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
+
+[dev-dependencies]
